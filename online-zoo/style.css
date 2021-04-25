@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #2a8086;
+  padding: 13px;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #196469;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+  margin-top: 101.7px;
+  height: 200px;
+}
+.header-left {
+  display: flex;
+  margin-left: 206px;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  margin-right: 60px;
+  align-items: center;
+  font-family: "Roboto";
+}
+.textHLeft {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.textLogo {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.8387px;
+  line-height: 41px;
+  color: #0d444d;
+}
+.signup {
+  border: 1px solid #c5e1e5;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: transparent;
+  width: 97px;
+  height: 52px;
+  color: #c5e1e5;
+}
+ul.hr2 li {
+  display: inline;
+  margin-left: 52px;
+}
+ul.hr1 li {
+  list-style-type: none;
+}
+ul.hr3 li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #c5e1e5;
+}
+.playico {
+  position: absolute;
+  left: 1269px;
+  top: 465px;
+}
+.hero {
+  display: flex;
+  background-image: url(assets/icons/backgr.png);
+  height: 803px;
+}
+.heroText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 222px;
+}
+.heroText1 {
+  margin-top: 93px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 85px;
+  color: #f3f7f8;
+}
+.heroText2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f3f7f8;
+  margin-top: 27px;
+}
+.heroButt {
+  background: #ffffff;
+  width: 258px;
+  height: 52px;
+  box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+  border-radius: 100px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #0d444d;
+  margin-top: 87px;
+  text-transform: uppercase;
+}
+.HIW {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0d444d;
+}
+.howItWorks {
+  display: flex;
+  margin-top: 36px;
+  margin-left: 310px;
+  margin-right: 330px;
+  justify-content: space-between;
+  align-items: center;
+}
+.hiw1 {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.regtangle {
+  background: #ffffff;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 100px;
+  width: 145px;
+  height: 145px;
+}
+.HIWText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #0d444d;
+  margin-top: 14px;
+}
+.backgr {
+  background-image: url(assets/icons/backgr3.png);
+  height: 523px;
+  margin-top: 100px;
+  display: flex;
+}
+.petsInZ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 220px;
+  margin-right: 200px;
+}
+.PIZButt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 331px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid #19707d;
+  border-radius: 100px;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  line-height: 24px;
+  color: #19707d;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.PIZText {
+  color: #0d444d;
+  font-family: "Rubik";
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.PIZ {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+}
+.PIZReg {
+  width: 480px;
+  height: 364px;
+  background: #ffffff;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.PIZimg {
+  margin: 20px 125.08px 32px 126px;
+}
+.PIZText9 {
+  display: flex;
+  justify-content: space-between;
+}
+.PIZText2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2d2d2d;
+}
+.PIZText3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #919191;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.penguin {
+  width: 33px;
+  height: 65.69px;
+  margin-top: 248px;
+  margin-left: 10px;
+}
+.PAFback {
+  background-image: url(assets/fonts/font3.png);
+  height: 564px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.PAFbutt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 255px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid #19707d;
+  border-radius: 100px;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  line-height: 24px;
+  color: #19707d;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.testimonials {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 52px;
+}
+.testimonialsReg {
+  background: #ffffff;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  width: 480px;
+  height: 172px;
+  margin-left: 20px;
+  flex-direction: column;
+  display: flex;
+}
+.photo {
+  margin-left: 39px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15.6px 9px 0 9px;
+  border-color: #ffffff transparent transparent transparent;
+  margin-left: 86px;
+}
+.TestNames {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+}
+.testDate {
+  font-size: 14px;
+  line-height: 16px;
+  color: #b3b3b3;
+  margin-top: 28px;
+  margin-left: 45px;
+}
+.testText {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d2d2d;
+  margin-top: 9px;
+  margin-left: 45px;
+}
+.BA {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.BAItems {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 105px;
+  height: 131px;
+  margin-top: 8.63px;
+}
+.BAItemsIn {
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d2d2d;
+}
+.arrows2 {
+  width: 52px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 59px;
+}
+.footerLeft {
+  display: flex;
+  margin-left: 220px;
+  align-items: center;
+}
+.footerRight {
+  margin-top: 94.3px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 75px;
+}
+.Bamboo {
+  width: 116.18px;
+  height: 221.03px;
+}
+.Bamboo2 {
+  width: 147.18px;
+  height: 280px;
+}
+.Tree1 {
+  width: 89.39px;
+  height: 158px;
+}
+.Tree2 {
+  width: 130.13px;
+  height: 230px;
+}
+.Panda {
+  width: 163px;
+  height: 155px;
+}
+.PAF {
+  display: flex;
+}
+.PAFText {
+  font-family: "Rubik";
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+}
+.PAFbutt2 {
+  width: 356px;
+  height: 52px;
+  filter: drop-shadow(0px 2px 20px rgba(185, 213, 217, 0.6));
+  background: #c5e1e6;
+  border-radius: 100px;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.PayAndFeed {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.PAF1 {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  height: 306px;
+  width: 480px;
+}
+.anim1 {
+  transition: transform else-in-out;
+  -webkit-transition: -webkit-transform else-in-out;
+  transition-duration: 0.4s;
+}
+.anim1:hover {
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+}
+.bt:hover {
+  background: #0d444d;
+}
+.bt2:hover {
+  background: #fff5ba;
+}
+.bt3:hover {
+  background: #ad954b;
+}
+.header-search {
+  margin-right: 40px;
+}
+.hero-Panda {
+  width: 804px;
+  height: 666px;
+  margin-top: 48px;
+  margin-left: 26px;
+}
+.arrow1 {
+  margin-top: 330px;
+}
+.HIW3 {
+  margin-left: 220px;
+}
+@media (max-width: 1560px) and (min-width: 920px) {
+  .header-left {
+    margin-left: 32px;
+  }
+  .header-right {
+    margin-right: 30px;
+  }
+  .header-butt {
+    display: none;
+  }
+  .header-right::after {
+    content: url(assets/icons/Frame-1200.png);
+  }
+  .header-search {
+    margin-right: 32px;
+  }
+  ul.hr2 li {
+    margin-left: 42px;
+  }
+  .heroText {
+    margin-left: 30px;
+  }
+  .hero-Panda {
+    width: 559.65px;
+    height: 463.63px;
+    margin-left: -56px;
+  }
+  .playico {
+    width: 83.69px;
+    height: 83.69px;
+    left: 869.66px;
+    top: 391.37px;
+  }
+  .howItWorks {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .PIZ {
+    margin-left: 30px;
+  }
+  .PIZReg {
+    width: 351.53px;
+    height: 285.44px;
+  }
+  .PIZimg {
+    width: 155.86px;
+    height: 150.47px;
+    left: 89px;
+    top: 25.69px;
+  }
+  .arrows {
+    margin-left: 0px;
+  }
+  .arrow1 {
+    margin-top: 250px;
+  }
+  .penguin {
+    margin-top: 170px;
+  }
+  .petsInZ {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .PAFback {
+    margin-left: -80px;
+    width: 1200px;
+    height: 564px;
+  }
+  .testimonials {
+    margin-left: 30px;
+  }
+  .HIW {
+    margin-left: 30px;
+  }
+  .BA {
+    margin-left: -50px;
+  }
+  .BAItems {
+    margin-left: 80px;
+  }
+  .arrows2 {
+    margin-top: 25px;
+  }
+  .footerLeft {
+    margin-left: 30px;
+  }
+  .testimonialsReg {
+    margin-left: 0px;
+    width: 367px;
+    height: 190px;
+  }
+  .testim {
+    margin-left: 18px;
+  }
+}

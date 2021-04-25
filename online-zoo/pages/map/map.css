@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #2a8086;
+  padding: 13px;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #196469;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+  height: 200px;
+}
+.footerLeft {
+  display: flex;
+  margin-left: 220px;
+  align-items: center;
+}
+.footerRight {
+  margin-top: 94.3px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 75px;
+}
+.header-left {
+  display: flex;
+  margin-left: 206px;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  margin-right: 60px;
+  align-items: center;
+  font-family: "Roboto";
+}
+.textHLeft {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.textLogo {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.8387px;
+  line-height: 41px;
+  color: #0d444d;
+}
+.signup {
+  border: 1px solid #c5e1e5;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: transparent;
+  width: 97px;
+  height: 52px;
+  color: #c5e1e5;
+}
+ul.hr2 li {
+  display: inline;
+  margin-left: 52px;
+}
+ul.hr1 li {
+  list-style-type: none;
+}
+ul.hr3 li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #c5e1e5;
+}
+.MapBack {
+  background: url(../../assets/fonts/Map.png);
+  width: 1419.22px;
+  height: 912.25px;
+  margin-top: 110.24px;
+  margin-left: -350px;
+  display: flex;
+}
+.font {
+  height: 1040px;
+  background: #2a8086;
+  display: flex;
+}
+.MapButt1 {
+  width: 32.52px;
+  height: 32.52px;
+  background-color: transparent;
+  border: 0;
+}
+.MapButt {
+  margin-top: 983px;
+  margin-left: 75px;
+  display: flex;
+}
+.MapBaton {
+  border: 0;
+  background-color: transparent;
+}
+.Eagle {
+  margin-top: 358.76px;
+  margin-left: 147.31px;
+  width: 90px;
+  height: 83px;
+}
+.Crock {
+  margin-left: 66px;
+  margin-top: 428.76px;
+  width: 90px;
+  height: 83px;
+}
+.GORILLAZZ {
+  margin-top: 528.76px;
+  margin-left: 271px;
+  width: 90px;
+  height: 83px;
+}
+.Panda {
+  margin-left: 256px;
+  margin-top: 393.76px;
+  width: 90px;
+  height: 83px;
+}
+.Text {
+  margin-top: 26px;
+  margin-left: 219px;
+  font-family: "Rubik";
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #c5e1e6;
+  width: 374px;
+  height: 28px;
+}
+.anim1 {
+  transition: transform else-in-out;
+  -webkit-transition: -webkit-transform else-in-out;
+  transition-duration: 0.4s;
+}
+.anim1:hover {
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+}
+.bt:hover {
+  background: #0d444d;
+}
+.bt2:hover {
+  background: #fff5ba;
+}
+.bt3:hover {
+  background: #ad954b;
+}

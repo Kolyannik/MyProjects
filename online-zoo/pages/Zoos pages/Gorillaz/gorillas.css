@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #2a8086;
+  padding: 13px;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #196469;
+  filter: drop-shadow(0px 1px 10px rgba(18, 87, 91, 0.25));
+  height: 200px;
+}
+.footerLeft {
+  display: flex;
+  margin-left: 220px;
+  align-items: center;
+}
+.footerRight {
+  margin-top: 94.3px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 75px;
+}
+.header-left {
+  display: flex;
+  margin-left: 206px;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  margin-right: 60px;
+  align-items: center;
+  font-family: "Roboto";
+}
+.textHLeft {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.textLogo {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.8387px;
+  line-height: 41px;
+  color: #0d444d;
+}
+.signup {
+  border: 1px solid #c5e1e5;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: transparent;
+  width: 97px;
+  height: 52px;
+  color: #c5e1e5;
+}
+ul.hr2 li {
+  display: inline;
+  margin-left: 52px;
+}
+ul.hr1 li {
+  list-style-type: none;
+}
+ul.hr3 li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #c5e1e5;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 105px;
+  height: 644px;
+  margin-left: 220px;
+  margin-top: 40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30px;
+}
+.PageName {
+  font-family: "Rubik";
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #0d444d;
+}
+.VideoText {
+  font-family: "Rubik";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #0d444d;
+  margin-top: 24px;
+  margin-bottom: 6px;
+}
+.lil {
+  margin-top: 21px;
+}
+.info1 {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  color: #0d444d;
+}
+.info2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 20px;
+  color: #0d444d;
+}
+.Zoolast {
+  background-image: url(../../../assets/fonts/ZooFooter.png);
+  height: 403px;
+  left: -6px;
+  top: -18px;
+  display: flex;
+}
+.Tree1 {
+  width: 130.13px;
+  height: 230px;
+  margin-left: 384px;
+  margin-top: 0px;
+}
+.Tree2 {
+  width: 130.13px;
+  height: 230px;
+  margin-left: 513.82px;
+  margin-top: 116px;
+}
+.Panda_Bamboo {
+  width: 236.18px;
+  height: 280px;
+  margin-left: 427.87px;
+  margin-top: -40px;
+}
+.DTV {
+  position: absolute;
+  width: 356px;
+  height: 52px;
+  left: 782px;
+  top: 2139px;
+  filter: drop-shadow(0px 2px 20px rgba(185, 213, 217, 0.6));
+  background: #c5e1e6;
+  border-radius: 100px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+.ZooName {
+  left: 11px;
+  top: 98px;
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d2d2d;
+}
+.Butt {
+  border: 0;
+  background-color: transparent;
+  width: 105px;
+  height: 96px;
+}
+.anim1 {
+  transition: transform else-in-out;
+  -webkit-transition: -webkit-transform else-in-out;
+  transition-duration: 0.4s;
+}
+.anim1:hover {
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+}
+.bt:hover {
+  background: #0d444d;
+}
+.bt2:hover {
+  background: #fff5ba;
+}
+.bt3:hover {
+  background: #ad954b;
+}
